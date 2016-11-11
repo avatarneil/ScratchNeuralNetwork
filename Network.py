@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 np.random.seed(19230834)
 x = np.linspace(0,1,100)
-z= np.linspace(0,1,100)
+z = np.linspace(0,1,100)
 i=0
 while i<len(x):
     z[i]=2*x[i]
