@@ -37,7 +37,7 @@ def training():
         w1 =w1-(dcw1*c)
         w2 =w2-(dcw2*c)
         #plt.plot(i,c)
-        print(c)
+        print(c,w1,w2)
         i+=1
     i=0
 training()
